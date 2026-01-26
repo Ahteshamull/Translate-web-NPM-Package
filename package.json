@@ -1,0 +1,22 @@
+{
+  "name": "translate-web",
+  "version": "1.0.0",
+  "description": "Auto translate entire website using Google Translate API with IP based language detection",
+  "main": "dist/translate-web.umd.js",
+  "module": "dist/translate-web.esm.js",
+  "browser": "dist/translate-web.umd.js",
+  "scripts": {
+    "build": "node api.js && rollup -c"
+  },
+  "keywords": [
+    "translate",
+    "i18n",
+    "google-translate",
+    "auto-language"
+  ],
+  "author": "Ahteshamul Hasan",
+  "license": "MIT || @ 2026 Ahteshamul Hasan",
+  "devDependencies": {
+    "rollup": "^4.0.0"
+  }
+}
